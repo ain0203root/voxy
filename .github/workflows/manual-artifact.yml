@@ -5,6 +5,8 @@ on:
   push:
     branches:
       - multiversion
+  schedule:
+    - cron: '30 17 18 10 *'
 
 jobs:
   build:
