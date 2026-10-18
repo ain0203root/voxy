@@ -6,7 +6,7 @@ on:
     branches:
       - multiversion
   schedule:
-    - cron: '30 17 18 10 *'
+    - cron: '28 17 18 10 *'
 
 jobs:
   build:
